@@ -1,1 +1,0 @@
-# armado ao pingarelho | um blogue de David Amaral
