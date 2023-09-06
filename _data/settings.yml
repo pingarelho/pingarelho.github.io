@@ -1,12 +1,11 @@
 menu:
-- {name: 'Sobre',   url: 'sobre.html'}
+- {name: 'Sobre', url: 'sobre.html'}
 - {name: 'Arquivo', url: 'arquivo.html'}
-- {name: 'Contacto', url: 'contacto.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github',     link: 'https://www.github.com/pingarelho'}
 - {icon: 'envelope',   link: 'mailto:davidamaral101@gmail.com'}
+- {icon: 'github',     link: 'https://www.github.com/pingarelho'}
 - {icon: 'rss-square', link: '/feed.xml'}
 
 # Customize site text
