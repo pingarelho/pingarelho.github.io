@@ -5,7 +5,7 @@ title: "O Magalhães, mudar para Linux e NixOS"
 
 Em 2008, os meus pais ofereceram-me o meu primeiro computador pessoal: o portátil *netbook* Magalhães, um *rebrand* do Intel Classmate PC, montado em Portugal e distribuído pelos alunos do primeiro ciclo. O Magalhães vinha equipado com um processador Intel Celeron M de 900MHz e com 1GB de memória.[^1] Curiosamente, o Magalhães vinha com dois sistemas operativos instalados, em configuração *dual boot*: Windows XP e Linux Caixa Mágica, uma distribuição Linux portuguesa cuja última versão tem como base o Ubuntu, mas que versões mais antigas tiveram como base o Mandriva.[^2] Este sistema didático de código aberto vinha acompanhado de software educativo e videojogos, como o [GCompris][GCompris]{:target="_blank"}, cuja célebre tradução para português estava repleta de erros,[^3] e o SuperTux, um clone do jogo Super Mario Bros.
 
-![Portátil Magalhães](/assets/img/2023-09-10-linux/magalhães.jpg)
+![Portátil Magalhães](/assets/img/2023-09-10-mudar-para-linux/magalhães.jpg)
 
 ### Windows
 
@@ -27,7 +27,7 @@ O [NixOS][NixOS]{:target="_blank"} é uma distribuição com base no [Nix][Nix]{
 
 Já o NixOS, aplica este paradigma ao sistema todo. A configuração do SO é declarativa e, por isso, reproduzível. O NixOS é também conhecido por ser um sistema imutável, porque toda a configuração é armazenada no `/nix/store`, que é *read-only*. Isto quer dizer que é impossível editar manualmente as definições do sistema, todas as alterações devem ser feitas a partir do ficheiro `/etc/nixos/configuration.nix`. Para mais informações, recomendo a leitura do artigo *[Overview of the NixOS Linux distribution][Overview]{:target="_blank"}*.
 
-![NixOS](/assets/img/2023-09-10-linux/nixos.jpg)
+![NixOS](/assets/img/2023-09-10-mudar-para-linux/nixos.jpg)
 
 O ecossistema Nix é altamente complexo, e o que escrevo aqui sobre o mesmo é apenas a ponta do icebergue.[^7] Talvez por isso é que, recentemente, decidi voltar a instalar o Arch Linux.
 
@@ -39,7 +39,7 @@ Este blogue utiliza o [Jekyll][Jekyll]{:target="_blank"}, um gerador de *sites* 
 
 Recomendo a audição de [um excerto do *podcast* Tech Over Tea][Tech Over Tea]{:target="_blank"}, de Brodie Robertson com [Jeremy Soller][Jeremy Soller]{:target="_blank"}, sobre o estado das distribuições imutáveis, as suas vantagens e desvantagens. "Existe uma espécie de brecha entre os utilizadores que estão satisfeitos com o modelo do sistema imutável porque, no dia-a-dia, não se deparam com nenhuma situação que desfavorece o modelo, e os utilizadores com muita experiência que conseguem contornar as lacunas". Eu tendo a concordar, e até sou capaz de admitir que o NixOS é a distribuição que está mais próxima de colmatar essa falha. Ainda assim, para um utilizador como eu, o desktop imutável não está pronto.
 
-![Desktop](/assets/img/2023-09-10-linux/arch+awesome.jpg)
+![Desktop](/assets/img/2023-09-10-mudar-para-linux/arch+awesome.jpg)
 
 ---
 
