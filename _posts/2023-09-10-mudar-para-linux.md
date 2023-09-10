@@ -59,7 +59,7 @@ Recomendo a audição de [um excerto do *podcast* Tech Over Tea][Tech Over Tea]{
 
 [^7]: Faltou mencionar os Nix shell environments, o Home Manager e os Flakes, entre outras funcionalidades.
 
-[^8]: Lê-se no [website do Nix][website do nix]: "Nix provides developers with a complete and consistent development environment. Stop worrying how to install dependencies for your project."
+[^8]: Lê-se no [website do Nix][website do nix]{:target="_blank"}: "Nix provides developers with a complete and consistent development environment. Stop worrying how to install dependencies for your project."
 
 [^9]: <https://matthewrhone.dev/jekyll-in-nixos>{:target="_blank"}
 
