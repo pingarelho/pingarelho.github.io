@@ -13,9 +13,9 @@ layout: default
   </div>
   {% endif %}
   <p>
-    {{ post.content | strip_html | truncate: 400 }}
-    {% assign post_content_size = post.content | strip_html | size %}
-    {% if post_content_size > 400 %}
+    {{ post.content | truncate: 500 }}
+    {% assign post_content_size = post.content | size %}
+    {% if post_content_size > 500 %}
     <a href="{{ site.github.url }}{{ post.url }}">Ler mais</a>
     {% endif %}
     <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i>{% assign page = post %} {% include
