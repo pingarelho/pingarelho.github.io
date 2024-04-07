@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "O Magalhães, mudar para Linux e NixOS"
-published: false
 ---
 
 Em 2008, os meus pais ofereceram-me o meu primeiro computador pessoal: o portátil *netbook* Magalhães, um *rebrand* do Intel Classmate PC, montado em Portugal e distribuído pelos alunos do primeiro ciclo. O Magalhães vinha equipado com um processador Intel Celeron M de 900MHz e com 1GB de memória.[^1] Curiosamente, o Magalhães vinha com dois sistemas operativos instalados, em configuração *dual boot*: Windows XP e Linux Caixa Mágica, uma distribuição Linux portuguesa cuja última versão tem como base o Ubuntu, mas versões mais antigas tiveram como base o Mandriva.[^2] Este sistema didático de código aberto vinha acompanhado de software educativo e videojogos, como o [GCompris][GCompris]{:target="_blank"}, cuja célebre tradução para português estava repleta de erros,[^3] e o SuperTux, um clone do jogo Super Mario Bros.
