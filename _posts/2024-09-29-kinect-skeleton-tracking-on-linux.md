@@ -5,7 +5,7 @@ title: "Xbox 360 Kinect Skeleton Tracking on Modern Linux"
 
 I wanted to get skeleton tracking working with the Xbox 360 Kinect on Linux, so that I could send joint tracking data to Pure Data in the form of OSC.
 
-I came across this [repository](https://github.com/planktosaur/KinectSkeletontTracking_18.04) which helped me a lot, but I still had to solve a number of problems to get it working. So this repository's README is an attempt to better document how to make this old hardware and software work on modern Linux.
+I came across this [repository](https://github.com/planktosaur/KinectSkeletontTracking_18.04) which helped me a lot, but I still had to solve a number of problems to get it working. So this blog post is an attempt to better document how to make this old hardware and software work on modern Linux.
 
 I'm using Arch Linux, but you should be able to follow the process regardless of the distribution you have installed. Be aware, however, that some packages won't have exactly the same name and that the directories for some libraries may be different.
 
